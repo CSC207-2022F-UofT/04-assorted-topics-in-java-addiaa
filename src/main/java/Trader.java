@@ -64,7 +64,7 @@ public class Trader<T> {
      *
      * @param obj the object to add
      */
-    public void addToWishList(T obj) {
+    public void addToWishlist(T obj) {
         this.wishlist.add(obj);
     }
 
