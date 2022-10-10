@@ -47,12 +47,9 @@ public class Trader<T> {
      * @param money The Trader's money
      */
     public Trader(int money) {
-        ArrayList<T> inventory = new ArrayList<T>();
-        ArrayList<T> wishlist = new ArrayList<T>();
-
         this.money = money;
-        this.inventory = inventory;
-        this.wishlist = wishlist;
+        this.inventory = new ArrayList<>();
+        this.wishlist = new ArrayList<>();
     }
 
     /* TODO: Implement the method addToWishlist that takes an
